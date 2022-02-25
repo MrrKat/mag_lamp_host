@@ -12,7 +12,7 @@ services:
     depends_on:
       - mysql-server
     network_mode: host
-  nginx:
+  apache:
     image: mrrkat/allphp-apache
     container_name: apache
     restart: always
